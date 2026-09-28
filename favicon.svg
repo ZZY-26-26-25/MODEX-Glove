@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MODEX-Glove favicon">
+  <rect width="64" height="64" rx="14" fill="#f3f6ff"/>
+  <rect x="8" y="8" width="48" height="48" rx="10" fill="#ffffff" stroke="#dfe7ff"/>
+  <text x="32" y="39" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#1d2a39" letter-spacing="-1">MG</text>
+</svg>
