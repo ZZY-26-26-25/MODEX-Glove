@@ -24,6 +24,7 @@
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="static/css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
     <script src="static/js/index.js" defer></script>
   </head>
   <body>
@@ -191,6 +192,29 @@
 
           <div class="text-block">
             <p>Citation Coming Soon</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-qr" class="content-section">
+        <div class="container narrow">
+          <div class="section-header">
+            <p class="section-kicker">Share</p>
+            <h2>Project Link</h2>
+          </div>
+
+          <div class="qr-container">
+            <div class="qr-card">
+              <div id="qrcode-display"></div>
+              <p class="qr-url">https://ZZY26-26-25.github.io/MODEX-Glove/</p>
+              <div class="qr-actions">
+                <button class="qr-button" type="button" onclick="downloadProjectQR()">Download QR</button>
+                <button class="qr-button" type="button" onclick="printProjectQR()">Print QR</button>
+              </div>
+            </div>
+            <div class="qr-text">
+              <p>Scan the QR code to share this project page with colleagues, use it in presentations, or include it in your research papers and posters.</p>
+            </div>
           </div>
         </div>
       </section>
